@@ -1,0 +1,212 @@
+
+body {
+  background-color: #16cc53;
+  width: 100%;
+}
+
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+  font-style: italic;
+}
+
+
+h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 1em;
+}
+
+footer {
+  background-color: azure;
+}
+/* Sección Index */
+
+.titleIndex {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 0.5rem 0.5rem 1rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1em;
+  border-width: 0.2rem;
+  border-color: green;
+  border-style: solid;
+  
+}
+
+.titleBoxIndex {
+  display: flex;
+  justify-content: center;
+}
+
+.nextCarrouselDex {
+  width: 100%;
+  height: 40em;
+}
+
+/* Carousel  */
+.carouselImages {
+  height: 40rem;
+}
+
+
+
+.bannerDexSon {
+  width: 80%;
+  height: 20em;
+  margin-left: 10%;
+  border-radius: 1em;
+  margin-top: 2rem;
+}
+
+
+.sealedItem {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  padding: 0.8rem;
+  border-radius: 1em;
+  border-color: green;
+  border-width: 0.5rem;
+  border-style: solid;
+
+}
+
+.titleNewsDex {
+  display: flex;
+  justify-content: center;
+}
+
+.newsImages {
+  display: inline-block;
+  height: 10em;
+  margin: 0em;
+  padding: 0em;
+}
+
+.newsText {
+  color: white;
+  text-align: center;
+
+}
+
+.news {
+  display: flex;
+  background-color: #0b5e27;
+  padding: 2rem;
+  border-width: 1rem;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 1em;
+  align-items: center;
+}
+
+.newsContainer {
+  padding: 1em;
+  margin: auto;
+}
+/* Sección Sobre Nosotros */
+.aboutUsContainer {
+  overflow-y: hidden;
+  height: 44em;
+}
+
+.imgAboutUs {
+  width: 100%;
+  height: 50em;
+}
+
+.aboutUsText {
+  display: flex;
+  height: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  margin-bottom: 10em;
+  position: absolute;
+  top: 41em;
+  background-color: rgba(76, 175, 80, 0.5)
+}
+
+.aboutUsPrincipal {
+  margin: 1em;
+  background-color: #95b39f;
+  padding: 1em;
+  border-width: 0.2em;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Medio Ambiente */
+.imageOneAmbient {
+  width: 100%; 
+}
+
+.imageText {
+  position: absolute;
+  top: 10em;
+  left: 20%;
+  background-color: rgba(76, 175, 160, 0.4);
+  padding: 1em;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+.videoAmbientSection {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+.worldCaringTipsContainer {
+  width: 70%;
+  margin-left: 15em;
+  margin-bottom: 2em;
+}
+
+.worldCaringTips {
+  margin: 2em;
+}
+
+/* Donar */
+.movements {
+  width: 100%;
+
+}
+
+.donationButton {
+  background-color: yellow;
+  width: 10%;
+  height: 3em;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.movementOne .donationButton {
+  position: absolute;
+  left: 45%;
+  top: 32em;
+}
+
+.movementTwo .donationButton {
+  position: absolute;
+  left: 45%;
+  top: 76em;
+}
+
+.movementThree .donationButton {
+  position: absolute;
+  left: 45%;
+  top: 120.5em;
+}
+
+ /* Registro */
+
+.input {
+  margin: 0.4em;
+}
