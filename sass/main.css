@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@media screen and (max-width: 600px) {
+  body {
+    /* Index */
+  }
+  body .bannerDex {
+    display: flex;
+    width: 100%;
+    height: 18rem;
+    justify-content: center;
+    align-items: center;
+  }
+  body .bannerDex .bannerDexSon {
+    height: 12rem;
+  }
+  body .newsContainer .news {
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+  body .newsContainer .news .newsImages {
+    display: inline-block;
+    height: 10rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  body .newsContainer .news .newsText {
+    display: inline;
+    font-size: 1.1em;
+  }
+  /* Sección Ambiente */
+  .bodyAmbiente main section .imageText {
+    height: 5rem;
+    font-size: 1.05em;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 
 body {
-  background-color: #16cc53;
+  background-color: #8B77E1;
   width: 100%;
 }
 
@@ -25,14 +25,15 @@ footer {
 .titleIndex {
   display: block;
   color: white;
-  background-color: black;
+  background-color: #3E27A8;
   padding: 0.5rem 0.5rem 1rem 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   border-radius: 1em;
-  border-width: 0.2rem;
-  border-color: green;
+  border-width: 0.1rem;
+  border-color: black;
   border-style: solid;
+  box-shadow: 0.3rem 0.3rem 0.5rem black;
   
 }
 
@@ -56,21 +57,26 @@ footer {
 .bannerDexSon {
   width: 80%;
   height: 20em;
-  margin-left: 10%;
   border-radius: 1em;
-  margin-top: 2rem;
+}
+
+.textBanner {
+  position: absolute;
+  top: 69rem;
+  right: 60rem;
+  color: white;
 }
 
 
 .sealedItem {
   display: inline-block;
-  background-color: black;
+  background-color: #3E27A8;
   color: white;
   margin-top: 1rem;
   margin-bottom: 0rem;
   padding: 0.8rem;
   border-radius: 1em;
-  border-color: green;
+  border-color: #3E27A8;
   border-width: 0.5rem;
   border-style: solid;
 
@@ -83,7 +89,7 @@ footer {
 
 .newsImages {
   display: inline-block;
-  height: 10em;
+  height: 14em;
   margin: 0em;
   padding: 0em;
 }
@@ -91,23 +97,29 @@ footer {
 .newsText {
   color: white;
   text-align: center;
-
+  font-size: 1.2rem;
 }
+
+/*.newsTextContainer{
+} */
 
 .news {
   display: flex;
-  background-color: #0b5e27;
+  background-color: #5132DB;
   padding: 2rem;
+  margin: 1rem;
   border-width: 1rem;
   border-style: solid;
-  border-color: grey;
+  border-color: #3E27A8;
   border-radius: 1em;
   align-items: center;
+  justify-content: center;
+  width: 90%;
 }
 
 .newsContainer {
-  padding: 1em;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 /* Sección Sobre Nosotros */
 .aboutUsContainer {
@@ -209,4 +221,6 @@ footer {
 
 .input {
   margin: 0.4em;
+  border-radius: 1em;
+  
 }

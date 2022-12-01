@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) 
+    {
+        body {
+            /* Index */
+            .bannerDex{
+                display: flex;
+                width: 100%;
+                height: 18rem;
+                justify-content: center;
+                align-items: center;
+                .bannerDexSon{
+                    height: 12rem;
+                }
+            }
+            .newsContainer{
+                .news{
+                    height: 50rem;
+                    display: flex;
+                    flex-direction: column;
+
+                    .newsImages{
+                        display: inline-block;
+                        height: 10rem;
+                        margin-left: 1.5rem;
+                        margin-right: 1.5rem;
+
+                    }
+                    .newsText{
+                        display: inline;
+                        font-size: 1.1em;
+                    }
+                }
+            }
+        }
+
+        /* Sección Ambiente */
+        .bodyAmbiente{
+            main{
+                section{
+                    .imageText{
+                        height: 5rem;
+                        font-size: 1.05em;
+                    }
+                }
+            }
+            
+        }
+    }
